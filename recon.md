@@ -1,4 +1,4 @@
-# Short Cuts#
+# Short Cuts #
 1. Make ip address a variable to reuse
     * ip=0.0.0.0
     * echo $ip
