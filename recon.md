@@ -6,6 +6,6 @@
 1. Standard start
     * nmap -sC -sV $ip
 2. Full Port Scan
-    * nmap -p- -sV -sS -T4 $ip
+    * sudo nmap -p- -sV -sS -T4 $ip
 3. OS Scan
     * nmap -O $ip
