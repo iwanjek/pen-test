@@ -1,3 +1,3 @@
 # Check Scheduled Tasks #
-  * crontab -l
-  * less /etc/crontab
+  1. crontab -l
+  2. less /etc/crontab
