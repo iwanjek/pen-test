@@ -12,7 +12,7 @@
 
 # HTTP #
 1. gobuster dir -u $ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x aspx,php,asp,html,txt,config,cgi 
-
+2. nikto -host $ip -port <port>
 
 #Brute Force#
 1. FTP
