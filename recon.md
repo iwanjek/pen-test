@@ -4,9 +4,9 @@
     * echo $ip
 # Nmap #
 1. Standard start
-    * nmap -sC -sV $ip
+    * nmap -sC -sV $ip -Pn
 2. Full Port Scan
-    * sudo nmap -p- -sV -sS -T4 $ip
+    * sudo nmap -p- -sV -sS -T4 $ip -Pn
 3. OS Scan
     * sudo nmap -O $ip
 
