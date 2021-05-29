@@ -3,10 +3,12 @@
     * ip=0.0.0.0
     * echo $ip
 # Nmap #
+Always neumerate all ports especially services that are unknown or tcpwrapped
 1. Standard start
     * nmap -sC -sV $ip -Pn
 2. Full Port Scan
     * sudo nmap -p- -sV -sS -T4 $ip -Pn
+    * nmap -vv --reason -Pn -A --osscan-gues --version-all -p- $ip 
 3. OS Scan
     * sudo nmap -O $ip
 
