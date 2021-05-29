@@ -14,6 +14,11 @@
 1. gobuster dir -u $ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x aspx,php,asp,html,txt,config,cgi 
 2. nikto -host $ip -port <port>
 
+# SNMP #
+1. snmp-check $ip
+   look for unusual processes
+
+
 # Brute Force #
 1. SSH
    * nmap --script ssh-brute --script-args userdb=/usr/share/wordlists/nmap.lst,passdb=/usr/share/wordlists/fasttrack.txt -pT:22 $ip
