@@ -13,7 +13,7 @@ Always neumerate all ports especially services that are unknown or tcpwrapped
     * sudo nmap -O $ip
 
 # HTTP #
-1. gobuster dir -u $ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x aspx,php,asp,html,txt,config,cgi 
+1. gobuster dir -u $ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x aspx,php,asp,html,txt,config,cgi      (use -b to exclude status codes)
 2. nikto -host $ip -port <port>
 
 # SNMP #
