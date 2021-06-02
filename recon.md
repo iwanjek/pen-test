@@ -27,5 +27,6 @@ Always neumerate all ports especially services that are unknown or tcpwrapped
 
 
 # FTP #
+   try anonymous/anonymous or admin/admin
 1. nmap -v -p21 -Pn --script=ftp-anon,ftp-bounce,ftp-libopie,ftp-proftpd-backdoor,ftp-syst,ftp-vsftpd-backdoor,ftp-vuln-cve2010-4221 $ip
 2. nmap --script ftp-brute --script-args userdb=/usr/share/wordlists/nmap.lst,passdb=/usr/share/wordlists/fasttrack.txt -pT:21 $ip
