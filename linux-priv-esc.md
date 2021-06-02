@@ -6,6 +6,9 @@
   1. crontab -l
   2. less /etc/crontab
 
+# Check what processes are running root #
+ use ps -aux | grep root
+
 # SUID Checker #
   1. find / -perm -u=s -type f 2>/dev/null
 
