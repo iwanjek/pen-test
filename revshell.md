@@ -1,5 +1,6 @@
 # Gold Rule #
-  * Only use open ports to do your rev shell. If a port is closed it will never establish a connection
+  * Only use open ports to do your rev shell. Firewalls may prevent other ports
+  * If a shell is not stable especially php web shells try using metasploit /multi/handler
 
 # Upgrade Linux Shell with Python #
  * python -c 'import pty; pty.spawn("/bin/bash")'
