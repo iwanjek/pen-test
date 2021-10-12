@@ -14,3 +14,6 @@
 
 # SUID Execute #
 Bash, Cat, cp, echo, find, Less, More, Nano, Nmap, Vim and etc
+
+# Unshadow #
+sudo unshadow passwd.bak shadow.bak > pwd.txt
