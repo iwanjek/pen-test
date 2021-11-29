@@ -2,6 +2,9 @@
   * Only use open ports to do your rev shell. Firewalls may prevent other ports
   * If a shell is not stable especially php web shells try using metasploit /multi/handler
 
+# Meterpreter #
+"shell" command to drop into a system shell after meterpreter makes a connection
+
 # Upgrade Linux Shell with Python #
  * python -c 'import pty; pty.spawn("/bin/bash")'
 
