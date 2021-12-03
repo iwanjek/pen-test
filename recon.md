@@ -25,6 +25,7 @@ Always neumerate all ports especially services that are unknown or tcpwrapped
 # Brute Force #
 1. SSH
    * nmap --script ssh-brute --script-args userdb=/usr/share/wordlists/nmap.lst,passdb=/usr/share/wordlists/fasttrack.txt -pT:22 $ip
+2. For all passwords check to see if it is a hash or base64 or plain text
 
 
 # FTP #
