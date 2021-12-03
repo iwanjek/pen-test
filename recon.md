@@ -15,7 +15,7 @@ Always neumerate all ports especially services that are unknown or tcpwrapped
 # HTTP #
 1. gobuster dir -u $ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x aspx,php,asp,html,txt,config,cgi      (use -b to exclude status codes)
 2. nikto -host $ip -port <port>
-3. curl -X POST https://example.com/ (Sometimes webrowsers will allow POST request when a GET is not working)
+3. curl -d "" -X POST https://example.com/ (Sometimes webrowsers will allow POST request when a GET is not working -d "" adds content filler of nothing in case content required)
 
 # SNMP #
 1. snmp-check $ip
