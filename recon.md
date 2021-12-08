@@ -36,3 +36,8 @@ Always neumerate all ports especially services that are unknown or tcpwrapped
 
  # SMTP #
   1. telnet $ip 25
+   
+ # REDIS 6379 #
+1. https://book.hacktricks.xyz/pentesting/6379-pentesting-redis
+2. If you have the ability to upload a file then you can upload a redis module that give code execution
+ 
