@@ -19,3 +19,7 @@ Bash, Cat, cp, echo, find, Less, More, Nano, Nmap, Vim and etc
 
 # Unshadow #
 sudo unshadow passwd.bak shadow.bak > pwd.txt
+
+
+# Docker #
+  1. https://flast101.github.io/docker-privesc/
