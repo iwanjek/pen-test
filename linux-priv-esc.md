@@ -1,3 +1,5 @@
+# Restricted Shell #
+  1. https://www.hacknos.com/rbash-escape-rbash-restricted-shell-escape/
 # What Can We Do #
   1. whoami
   2. sudo -l
