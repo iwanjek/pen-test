@@ -1,3 +1,6 @@
+# Python TTY Shell #
+ 1. python -c 'import pty; pty.spawn("/bin/bash")'
+
 # Restricted Shell #
   1. https://www.hacknos.com/rbash-escape-rbash-restricted-shell-escape/
 # What Can We Do #
