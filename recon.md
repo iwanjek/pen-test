@@ -45,4 +45,5 @@ Always neumerate all ports especially services that are unknown or tcpwrapped
    
   # ICR #
    1. https://book.hacktricks.xyz/pentesting/pentesting-irc
+   2. Use hexchat to join chatroom. Readd the clues from messages.
  
