@@ -4,6 +4,7 @@
     * echo $ip
 # Nmap #
 Always neumerate all ports especially services that are unknown or tcpwrapped
+0. SHOULD REALLY DO UDP SCAN TOO
 1. Standard start
     * nmap -sC -sV $ip -Pn
 2. Full Port Scan
