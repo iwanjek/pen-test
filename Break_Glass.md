@@ -1,4 +1,4 @@
-
+# Did you revert the box? Never trust that the box is working properly #
 # Recon #
 1. Did you scans:
   a. Full scan (hidden Ports)
@@ -24,7 +24,8 @@
 5. Any strange programs in program files or strange scripts somewhere?
 6. What is the path? Does it call something I can hijack?
 7. Are your calling /bin when it should be /sbin or another path issue?
-8. Overwriting admin files?
+8. Can you overwite an important file?
+9. Can you move a file to replace it with a reverse shell?
 
 
 
