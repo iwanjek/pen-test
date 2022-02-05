@@ -10,7 +10,9 @@ Always neumerate all ports especially services that are unknown or tcpwrapped
 2. Full Port Scan
     * sudo nmap -p- -sV -sS -T4 $ip -Pn
     * nmap -vv --reason -Pn -A --osscan-gues --version-all -p- $ip 
-3. OS Scan
+3. UDP Scan
+    * nmap -sU $ip -Pn -p-
+5. OS Scan
     * sudo nmap -O $ip
 
 # HTTP #
