@@ -16,7 +16,7 @@
 5. Look for weird stuff in brupsuite like what level of access something might have? Is something base64 encoded?
 
 
-#Priv Esc #
+# Priv Esc #
 1. What files do I have access to?
 2. What groups?
 3. What can sudo do?
