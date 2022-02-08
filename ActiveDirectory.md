@@ -5,8 +5,7 @@
 
 
 # LDAP #
-1. Basic Search
-  
+1. Basic Search 
   a. ldapsearch -h $ip -p 389 -x -s base
   
 2. Null creds to try and get list of usernames
