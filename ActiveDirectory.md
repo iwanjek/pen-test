@@ -101,8 +101,7 @@
 		d. Exit and you can read shares with default creds mimikatz
 			The default credentials will be: "mimikatz"			
 			example: net use c:\\DOMAIN-CONTROLLER\admin$ /user:Administrator mimikatz - The share will now be accessible without the need for the Administrators password			
-      example: dir \\Desktop-1\c$ /user:Machine1 mimikatz - access the directory of Desktop-1 without ever knowing what users have access to Desktop-1![image](https://user-images.githubusercontent.com/6464797/152891832-b09edb4c-c062-4219-a5d3-fa8262a52d4d.png)
-
+      example: dir \\Desktop-1\c$ /user:Machine1 mimikatz - access the directory of Desktop-1 without ever knowing what users have access to Desktop-1!
 # Secrets Dump #
 1. Impacket Secrets Dump if you have creds of admin or backup account
 	
