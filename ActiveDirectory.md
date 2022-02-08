@@ -6,7 +6,9 @@
 
 # LDAP #
 1. Basic Search
-  *a. ldapsearch -h $ip -p 389 -x -s base
+  
+  a. ldapsearch -h $ip -p 389 -x -s base
+  
 2. Null creds to try and get list of usernames
   a. ldapsearch -x -h $ip -D '' -w '' -b "DC=controller,DC=local"
   b. Can clean up output with grep also search for passwords! Remember grep case sensistive grep -i (ignore case)
