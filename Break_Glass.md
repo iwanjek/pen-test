@@ -7,6 +7,7 @@
 3. Try default creds for all services admin/admin etc.
 4. Go to a webpage for any name you found. For instance if there is a "sushi" directory/file in ftp go to http:$ip/sushi. Common trick to fool dirbuster
 5. Did you gobuster each http?
+6. robots.txt??
 
 # Foothold #
 1. Try all different ports for reverse shell. Somemtimes a port is open but only outbound.
