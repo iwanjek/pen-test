@@ -1,10 +1,11 @@
 # Did you revert the box? Never trust that the box is working properly #
+Add to your /etc/hosts
 # Recon #
 1. Did you scans:
   a. Full scan (hidden Ports)
   b. UDP scan
 2. Searchsploit all services
-3. Try default creds for all services admin/admin etc.
+3. Try default creds for all services admin/admin guest/guest anonymous/anonymous bob/bob
 4. Go to a webpage for any name you found. For instance if there is a "sushi" directory/file in ftp go to http:$ip/sushi. Common trick to fool dirbuster
 5. Did you gobuster each http?
 6. robots.txt??
