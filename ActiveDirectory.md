@@ -2,7 +2,8 @@
   1. Make sure you have added the domain to your /etc/hosts file
   2. You can search the hash using hashcat https://hashcat.net/wiki/doku.php?id=example_hashes 
   3. grep -i (ignore case helpful when searching output for password or hashes)
-  4. You may need to portforward
+  4. https://www.xmind.net/m/5dypm8/#
+  5. You may need to portforward (but probably not)
 
 # Useful #
 1. Get active logged on users
